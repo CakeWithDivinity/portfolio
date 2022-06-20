@@ -1,4 +1,6 @@
 {
+	"htmlWhitespaceSensitivity": "ignore",
+	"semi": true,
 	"useTabs": true,
 	"singleQuote": true,
 	"trailingComma": "none",
