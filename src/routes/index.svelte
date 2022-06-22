@@ -7,3 +7,11 @@
 	Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a>
 	to read the documentationa
 </p>
+
+<style lang="scss">
+	p {
+		a {
+			color: green;
+		}
+	}
+</style>
