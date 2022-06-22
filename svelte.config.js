@@ -19,7 +19,7 @@ const config = {
 		adapter: adapter(),
 
 		paths: {
-			base: dev ? '' : '/portfolio'
+			base: '/portfolio'
 		},
 
 		appDir: 'internal',
