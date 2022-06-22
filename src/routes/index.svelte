@@ -2,16 +2,21 @@
 	export const prerender = true;
 </script>
 
-<h1>Welcome to SvelteKit</h1>
-<p>
-	Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a>
-	to read the documentationa
-</p>
+<script lang="ts">
+	import Hero from '$lib/hero.svelte';
+</script>
+
+<section class="hero-section">
+	<Hero />
+</section>
 
 <style lang="scss">
-	p {
-		a {
-			color: green;
-		}
+	section {
+		width: 100%;
+		height: 100vh;
+	}
+
+	.hero-section {
+		position: relative;
 	}
 </style>

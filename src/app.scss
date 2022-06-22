@@ -1,1 +1,36 @@
 /* Write your global styles here, in SCSS syntax. Variables and mixins from the src/variables.scss file are available here without importing */
+@font-face {
+	font-family: 'Anton';
+	font-style: normal;
+	font-weight: 400;
+	src: local(''), url('fonts/anton-v23-latin-regular.woff2') format('woff2'),
+		/* Chrome 26+, Opera 23+, Firefox 39+ */ url('fonts/anton-v23-latin-regular.woff')
+			format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+:root {
+	font-size: 16px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(
+		116.82deg,
+		#19323c 10.42%,
+		#58c0c1 99.99%,
+		#59c3c3 100%,
+		#59c3c3 100%,
+		#59c3c3 100%
+	);
+	background-repeat: no-repeat;
+	font-family: 'Anton';
+	font-weight: normal;
+	letter-spacing: 0.25ch;
+}
