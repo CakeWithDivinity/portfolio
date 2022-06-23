@@ -1,35 +1,35 @@
 <script context="module" lang="ts">
-	export const prerender = true;
+  export const prerender = true;
 </script>
 
 <script lang="ts">
-	import Hero from '$lib/hero.svelte';
-	import AboutMe from '$lib/about-me.svelte';
+  import Hero from '$lib/hero.svelte';
+  import AboutMe from '$lib/about-me.svelte';
 </script>
 
 <section class="hero-section">
-	<Hero />
+  <Hero />
 </section>
 
 <section class="about-me-section">
-	<AboutMe />
+  <AboutMe />
 </section>
 
 <style lang="scss">
-	section {
-		width: 100%;
-		height: 100vh;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
+  section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-	.hero-section {
-		position: relative;
-	}
+  .hero-section {
+    position: relative;
+  }
 
-	.about-me-section {
-		padding-inline: 10rem;
-	}
+  .about-me-section {
+    padding-inline: 10rem;
+  }
 </style>
