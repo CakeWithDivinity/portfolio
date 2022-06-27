@@ -3,8 +3,9 @@
 </script>
 
 <script lang="ts">
-  import Hero from '$lib/hero.svelte';
   import AboutMe from '$lib/about-me.svelte';
+  import Hero from '$lib/hero.svelte';
+  import Projects from '$lib/projects/projects.svelte';
 </script>
 
 <section class="hero-section">
@@ -13,6 +14,10 @@
 
 <section class="about-me-section">
   <AboutMe />
+</section>
+
+<section class="projects-section">
+  <Projects />
 </section>
 
 <style lang="scss">

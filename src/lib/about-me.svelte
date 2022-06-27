@@ -96,7 +96,7 @@
     > img {
       height: 3rem;
       filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
-	  transition: transform 0.25s ease;
+      transition: transform 0.25s ease;
 
       &:hover {
         transform: scale(1.15);
