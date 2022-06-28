@@ -18,6 +18,12 @@
       imageAlt: 'GitHub Profile',
       title: 'CakeWithDivinity',
       url: 'https://github.com/CakeWithDivinity'
+    },
+    {
+      imagePath: '/portfolio/images/logos/linkedin.png',
+      imageAlt: 'LinkedIn Profile',
+      title: 'Hendrik Loewe',
+      url: 'https://www.linkedin.com/in/hendrik-loewe-04ba2b202/'
     }
   ];
 </script>
