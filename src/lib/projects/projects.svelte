@@ -1,8 +1,8 @@
 <script lang="ts">
   import Project from './project.svelte';
-  import type { ProjectContent } from 'src/types/project';
+  import type { ProjectItem } from 'src/types/project';
 
-  const comingSoonProject: ProjectContent = {
+  const comingSoonProject: ProjectItem = {
     imageSrc: 'https://picsum.photos/300/200',
     imageAlt: 'Placeholder image for an unfinished project',
     text: `Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -14,7 +14,7 @@
     title: 'Coming soon...'
   };
 
-  const projects: ProjectContent[] = [comingSoonProject, comingSoonProject, comingSoonProject];
+  const projects: ProjectItem[] = [comingSoonProject, comingSoonProject, comingSoonProject];
 </script>
 
 <h2 class="section-title">Projects</h2>

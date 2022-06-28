@@ -1,7 +1,7 @@
 <script lang="ts">
-  import type { ProjectContent } from 'src/types/project';
+  import type { ProjectItem } from 'src/types/project';
 
-  export let project: ProjectContent | undefined = undefined;
+  export let project: ProjectItem | undefined = undefined;
 </script>
 
 {#if project}

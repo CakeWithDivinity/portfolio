@@ -1,4 +1,4 @@
-export interface ProjectContent {
+export interface ProjectItem {
   imageSrc: string;
   imageAlt: string;
   title: string;
