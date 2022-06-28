@@ -6,6 +6,7 @@
   import AboutMe from '$lib/about-me.svelte';
   import Hero from '$lib/hero.svelte';
   import Projects from '$lib/projects/projects.svelte';
+  import Contact from '$lib/contact.svelte';
 </script>
 
 <section class="hero-section">
@@ -18,6 +19,10 @@
 
 <section class="projects-section">
   <Projects />
+</section>
+
+<section class="contact-section">
+  <Contact />
 </section>
 
 <style lang="scss">
