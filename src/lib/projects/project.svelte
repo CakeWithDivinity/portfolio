@@ -21,6 +21,12 @@
     color: $white;
     background-color: $primary;
     border-radius: 2rem;
+    box-shadow: 6px 6px 10px 4px rgba(0, 0, 0, 0.25);
+    transition: transform 150ms ease-out;
+
+    &:hover {
+      transform: scale(1.125);
+    }
 
     > *:not(img) {
       padding-inline: 2rem;
