@@ -40,10 +40,12 @@
     > h3 {
       font-size: 2rem;
       margin-top: 0.5rem;
+      color: $white;
     }
 
     > p {
       text-align: justify;
+      color: $white;
     }
   }
 </style>
