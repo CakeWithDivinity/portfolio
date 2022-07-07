@@ -14,11 +14,11 @@
 
   h1 {
     font-size: 6rem;
-    color: $primary;
+    color: $white;
   }
 
   p {
     font-size: 2rem;
-    color: $primary;
+    color: $white;
   }
 </style>
