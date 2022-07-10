@@ -59,7 +59,7 @@
 
 <style lang="scss">
   .card {
-    height: 80%;
+    min-height: 80%;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr auto;
@@ -67,6 +67,11 @@
     background-color: $primary;
     border-radius: 2rem;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+
+    @media screen and (max-width: $bp-width-small) {
+      display: flex;
+      flex-direction: column-reverse;
+    }
   }
 
   .content {
@@ -85,6 +90,17 @@
       font-size: 2rem;
       line-height: 2.125rem;
       color: $white;
+
+      @media screen and (max-width: $bp-width-small) {
+        margin-left: 2rem;
+        margin-block: 1rem;
+      }
+    }
+
+    @media screen and (max-width: $bp-width-small) {
+      padding: 1rem;
+      grid-template-columns: 1fr;
+      width: 100%;
     }
   }
 
@@ -102,6 +118,11 @@
         transform: scale(1.15);
       }
     }
+
+    @media screen and (max-width: $bp-width-small) {
+      margin-block: 2rem;
+      justify-content: center;
+    }
   }
 
   .portrait {
@@ -111,6 +132,18 @@
       height: 100%;
       border-radius: 0rem 2rem 2rem 0rem;
       object-fit: cover;
+    }
+
+    @media screen and (max-width: $bp-width-small) {
+      height: auto;
+      width: 100%;
+
+      > img {
+        width: 100%;
+        height: 30rem;
+        object-position: 0% 20%;
+        border-radius: 2rem 2rem 0rem 0rem;
+      }
     }
   }
 </style>

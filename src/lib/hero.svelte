@@ -10,11 +10,22 @@
     top: 50%;
     left: 7.5%;
     transform: translateY(-50%);
+
+    @media screen and (max-width: $bp-width-small) {
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
   }
 
   h1 {
     font-size: 6rem;
     color: $white;
+
+    @media screen and (max-width: $bp-width-small) {
+      margin-bottom: 2.5rem;
+      line-height: 6rem;
+    }
   }
 
   p {

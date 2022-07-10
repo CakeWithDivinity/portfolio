@@ -30,6 +30,12 @@
 
     > *:not(img) {
       padding-inline: 2rem;
+
+      @media screen and (max-width: $bp-width-small) {
+        &:last-child {
+          margin-bottom: 2rem;
+        }
+      }
     }
 
     img {
@@ -46,6 +52,10 @@
     > p {
       text-align: justify;
       color: $white;
+    }
+
+    @media screen and (max-width: $bp-width-small) {
+      width: 100%;
     }
   }
 </style>

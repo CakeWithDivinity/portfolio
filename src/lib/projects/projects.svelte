@@ -31,5 +31,10 @@
     gap: 5rem;
     height: 60%;
     padding-inline: 5rem;
+
+    @media screen and (max-width: $bp-width-small) {
+      flex-direction: column;
+      padding-inline: 2.5rem;
+    }
   }
 </style>

@@ -28,11 +28,15 @@
 <style lang="scss">
   section {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    @media screen and (max-width: $bp-width-small) {
+      margin-bottom: 5rem;
+    }
   }
 
   .hero-section {
@@ -41,5 +45,9 @@
 
   .about-me-section {
     padding-inline: 10rem;
+
+    @media screen and (max-width: $bp-width-small) {
+      padding-inline: 1rem;
+    }
   }
 </style>

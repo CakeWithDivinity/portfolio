@@ -50,6 +50,10 @@
     flex-direction: column;
     gap: 1.5rem;
     padding-inline: 30%;
+
+    @media screen and (max-width: $bp-width-small) {
+      padding-inline: 1rem;
+    }
   }
 
   .contact-item {
@@ -70,6 +74,11 @@
       top: 50%;
       transform: translateY(-50%);
       height: 4rem;
+
+      @media screen and (max-width: $bp-width-small) {
+        position: unset;
+        transform: unset;
+      }
     }
 
     > p,
@@ -77,6 +86,16 @@
       color: $white;
       font-size: 2rem;
       text-decoration: none;
+
+      @media screen and (max-width: $bp-width-small) {
+        font-size: 1.5rem;
+        text-align: center;
+        flex-grow: 1;
+      }
+    }
+
+    @media screen and (max-width: $bp-width-small) {
+      justify-content: space-between;
     }
   }
 </style>
