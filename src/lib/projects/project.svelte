@@ -30,11 +30,9 @@
 
     > *:not(img) {
       padding-inline: 2rem;
-
-      @media screen and (max-width: $bp-width-small) {
-        &:last-child {
-          margin-bottom: 2rem;
-        }
+      
+      &:last-child {
+        padding-bottom: 2rem;
       }
     }
 
